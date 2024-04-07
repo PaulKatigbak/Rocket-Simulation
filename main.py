@@ -171,11 +171,11 @@ def main():
             distancesy.append(rb.state[1])
 
         # moves rocket to start from bottom of screen
-        screen.blit(background, (pos[0] - 615, pos[1] - win_height - 1120))
+        screen.blit(background, (pos[0] - 615, pos[1] - win_height - 1130))
         display_stats(screen, rb)        # had to draw this after background to avoid flickering
 
         # if (position(y) is <= 0 and velocity is > 2) or (position(y) is <= 0 and rocket is tilted too much) it will explode
-        if (rb.state[1] <= 0 and abs(rb.state[13]/rb.mass) > 200) or ((rb.get_thrust_direction_body()[1]) <= 195 and rb.state[1] <= 0):
+        if (rb.state[1] <= 0 and abs(rb.state[13]/rb.mass) > 1.20) or ((rb.get_thrust_direction_body()[1]) <= 400 and rb.state[1] <= 0):
             exploded = True
 
             # to play crash sound only once
@@ -207,7 +207,7 @@ def main():
             #     plt.show()
 
         # if rocket hits the ground with not enough velocity, it will land and not explode
-        elif rb.state[1] <= 0 and abs(rb.state[13]/rb.mass) < 200 and abs(rb.state[13]/rb.mass) != 0:
+        elif rb.state[1] <= 0 and abs(rb.state[13]/rb.mass) < 1.20 and abs(rb.state[13]/rb.mass) != 0:
             rocket.draw(screen)
             display_end_screen(screen)
             rb.pause()
