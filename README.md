@@ -18,7 +18,7 @@ The report is formatted with double spacing, and using the template provided, re
 
 ### How to Run:
 
-1. Clone the repository on your machine.
+1. Clone the repository on your machine or download it as a zip (your choice).
 2. Using your IDE  (preferably VSCode), open the project folder.
 3. Run the main.py file.
 
