@@ -9,8 +9,7 @@ Malhar Singh: 100829423
 ## Project Introduction:
 
 This project aims to examine a simplified version of a rocket simulation. While an exact
-replica of a rocket simulation would be out of the scope of this course, a simplified ver-
-sion still addresses much of the physics behind rocket simulations. This project uses all the resources learned from the Simulation and Modelling course.
+replica of a rocket simulation would be out of the scope of this course, a simplified version still addresses much of the physics behind rocket simulations. This project uses all the resources learned from the Simulation and Modelling course.
 
 All relevant reports and graph are contained in their respective directories. 
 
