@@ -13,7 +13,7 @@ replica of a rocket simulation would be out of the scope of this course, a simpl
 
 All relevant reports and graph are contained in their respective directories. 
 
-The report is formatted with double spacing, and using the template provided, resulting in approximately 8 pages of content.
+The report is formatted with double spacing, and using the template provided in Latex, resulting in approximately 8 pages of content.
 
 ### How to Run:
 
